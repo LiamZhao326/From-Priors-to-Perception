@@ -1,6 +1,6 @@
-# PACC Supplementary Material
+# From Priors to Perception: Grounding Video-LLMs in Physical Reality
 
-This supplementary material contains the following components to support the reproducibility of our paper:
+This project contains the following components to support the reproducibility of our paper:
 
 ## Directory Structure
 
