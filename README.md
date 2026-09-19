@@ -68,11 +68,11 @@ The [eight-case folder](8_PriorPair_cases/) contains one demonstration per categ
 
 The [qualitative examples](qualitative_examples/README.md) provide eight selected improvement pairs, including **16 videos**, ground-truth annotations, and complete Base and PhyAR responses. Each overview places the positive counterpart above the negative counterpart.
 
-**Coherence Violation:** a continuous pushing action is contrasted with a temporally scrambled sequence. The Base model overlooks the discontinuity, while PhyAR identifies the out-of-order transitions.
+**Dynamic Violation:** a race car drives along a track in one video but rises into the air without a supporting mechanism in the other. The Base model rationalizes the anomalous motion as a stunt jump, while PhyAR identifies it as physically invalid.
 
-![Coherence Violation: positive counterpart above, negative counterpart below](qualitative_examples/01_coherence_violation/overview.jpg)
+![Dynamic Violation: positive counterpart above, negative counterpart below](qualitative_examples/05_dynamic_violation/overview.jpg)
 
-[Videos and complete responses](qualitative_examples/01_coherence_violation/example.md)
+[Videos and complete responses](qualitative_examples/05_dynamic_violation/example.md)
 
 **Near-Miss:** the hand grasps the cabinet handle in one video but stops before contact in the other. PhyAR distinguishes the observed contact from the remaining gap.
 
@@ -157,13 +157,10 @@ Each module documents its own dependencies, input paths, and model or API requir
 If you use PriorPair, PhyAR, or this code in your research, please cite:
 
 ```bibtex
-@misc{zhao2026priorsperception,
-  title         = {From Priors to Perception: Grounding {Video-LLMs} in Physical Reality},
-  author        = {Zicheng Zhao and Chaofan Gan and Shijie Li and Weiyao Lin},
-  year          = {2026},
-  eprint        = {2605.04515},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.CV},
-  url           = {https://arxiv.org/abs/2605.04515}
+@article{zhao2026priorsperception,
+  title   = {From Priors to Perception: Grounding {Video-LLMs} in Physical Reality},
+  author  = {Zhao, Zicheng and Gan, Chaofan and Li, Shijie and Lin, Weiyao},
+  journal = {arXiv preprint arXiv:2605.04515},
+  year    = {2026}
 }
 ```
