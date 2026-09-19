@@ -24,7 +24,7 @@ PhyAR uses standard autoregressive supervised fine-tuning with LoRA, without mod
 
 ## PriorPair Dataset
 
-[**Download PriorPair on Hugging Face**](https://huggingface.co/datasets/Liam328/PriorPair)
+[**PriorPair on Hugging Face — full release in progress**](https://huggingface.co/datasets/Liam328/PriorPair)
 
 PriorPair contains **828 matched video pairs**, split into **660 training pairs** and **168 test pairs**, across **eight physical categories**. Videos average **4.0 seconds**. Each video has an expert-reviewed **Observation–Attribution–Verdict (O–A–V)** annotation.
 
