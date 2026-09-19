@@ -1,0 +1,306 @@
+[
+  {
+    "slug": "01_coherence_violation",
+    "category": "I_A_Coherence_Violation",
+    "display_name": "Coherence Violation",
+    "sample_indices": [
+      2,
+      3
+    ],
+    "videos": {
+      "positive": "videos/positive.mp4",
+      "negative": "videos/negative.mp4"
+    },
+    "baseline": {
+      "sample_accuracy": [
+        1,
+        0
+      ],
+      "reasoning_scores": [
+        3,
+        1
+      ],
+      "pca": 0,
+      "pair_ras": 1
+    },
+    "phyar": {
+      "sample_accuracy": [
+        1,
+        1
+      ],
+      "reasoning_scores": [
+        5,
+        5
+      ],
+      "pca": 1,
+      "pair_ras": 5
+    },
+    "selection_note": "Close-up action with an easily visible scrambled temporal order. PhyAR receives 5/5 reasoning scores."
+  },
+  {
+    "slug": "02_causal_reversal",
+    "category": "I_B_Causal_Reversal",
+    "display_name": "Causal Reversal",
+    "sample_indices": [
+      34,
+      35
+    ],
+    "videos": {
+      "positive": "videos/positive.mp4",
+      "negative": "videos/negative.mp4"
+    },
+    "baseline": {
+      "sample_accuracy": [
+        1,
+        0
+      ],
+      "reasoning_scores": [
+        4,
+        1
+      ],
+      "pca": 0,
+      "pair_ras": 1
+    },
+    "phyar": {
+      "sample_accuracy": [
+        1,
+        1
+      ],
+      "reasoning_scores": [
+        5,
+        5
+      ],
+      "pca": 1,
+      "pair_ras": 5
+    },
+    "selection_note": "High-resolution mug-breaking sequence with a clear effect-before-cause reversal. PhyAR receives 5/5 reasoning scores."
+  },
+  {
+    "slug": "03_existence_violation",
+    "category": "II_A_Existence_Violation",
+    "display_name": "Existence Violation",
+    "sample_indices": [
+      74,
+      75
+    ],
+    "videos": {
+      "positive": "videos/positive.mp4",
+      "negative": "videos/negative.mp4"
+    },
+    "baseline": {
+      "sample_accuracy": [
+        1,
+        0
+      ],
+      "reasoning_scores": [
+        3,
+        2
+      ],
+      "pca": 0,
+      "pair_ras": 2
+    },
+    "phyar": {
+      "sample_accuracy": [
+        1,
+        1
+      ],
+      "reasoning_scores": [
+        4,
+        4
+      ],
+      "pca": 1,
+      "pair_ras": 4
+    },
+    "selection_note": "The negative counterpart shows liquid rising and swirling without visible input. PhyAR identifies the spontaneous rise and correctly classifies both counterparts."
+  },
+  {
+    "slug": "04_identity_violation",
+    "category": "II_B_Identity_Violation",
+    "display_name": "Identity Violation",
+    "sample_indices": [
+      98,
+      99
+    ],
+    "videos": {
+      "positive": "videos/positive.mp4",
+      "negative": "videos/negative.mp4"
+    },
+    "baseline": {
+      "sample_accuracy": [
+        1,
+        0
+      ],
+      "reasoning_scores": [
+        5,
+        1
+      ],
+      "pca": 0,
+      "pair_ras": 1
+    },
+    "phyar": {
+      "sample_accuracy": [
+        1,
+        1
+      ],
+      "reasoning_scores": [
+        5,
+        5
+      ],
+      "pca": 1,
+      "pair_ras": 5
+    },
+    "selection_note": "High-resolution transformation from a rubber duck into a live duckling. PhyAR receives 5/5 reasoning scores."
+  },
+  {
+    "slug": "05_dynamic_violation",
+    "category": "III_A_Dynamic_Violation",
+    "display_name": "Dynamic Violation",
+    "sample_indices": [
+      122,
+      123
+    ],
+    "videos": {
+      "positive": "videos/positive.mp4",
+      "negative": "videos/negative.mp4"
+    },
+    "baseline": {
+      "sample_accuracy": [
+        1,
+        0
+      ],
+      "reasoning_scores": [
+        5,
+        2
+      ],
+      "pca": 0,
+      "pair_ras": 2
+    },
+    "phyar": {
+      "sample_accuracy": [
+        1,
+        1
+      ],
+      "reasoning_scores": [
+        5,
+        4
+      ],
+      "pca": 1,
+      "pair_ras": 4.5
+    },
+    "selection_note": "The car visibly lifts from the track without a supporting mechanism. PhyAR identifies the unsupported airborne motion and correctly classifies both counterparts."
+  },
+  {
+    "slug": "06_constraint_violation",
+    "category": "III_B_Constraint_Violation",
+    "display_name": "Constraint Violation",
+    "sample_indices": [
+      220,
+      221
+    ],
+    "videos": {
+      "positive": "videos/positive.mp4",
+      "negative": "videos/negative.mp4"
+    },
+    "baseline": {
+      "sample_accuracy": [
+        1,
+        0
+      ],
+      "reasoning_scores": [
+        4,
+        1
+      ],
+      "pca": 0,
+      "pair_ras": 1
+    },
+    "phyar": {
+      "sample_accuracy": [
+        1,
+        1
+      ],
+      "reasoning_scores": [
+        5,
+        5
+      ],
+      "pca": 1,
+      "pair_ras": 5
+    },
+    "selection_note": "The magnet is moved close to the compass, but only the positive counterpart shows the expected needle rotation. PhyAR identifies the missing magnetic response and correctly classifies both counterparts."
+  },
+  {
+    "slug": "07_near_miss",
+    "category": "IV_A_Near_Miss",
+    "display_name": "Near-Miss",
+    "sample_indices": [
+      264,
+      265
+    ],
+    "videos": {
+      "positive": "videos/positive.mp4",
+      "negative": "videos/negative.mp4"
+    },
+    "baseline": {
+      "sample_accuracy": [
+        0,
+        0
+      ],
+      "reasoning_scores": [
+        2,
+        1
+      ],
+      "pca": 0,
+      "pair_ras": 1.5
+    },
+    "phyar": {
+      "sample_accuracy": [
+        1,
+        1
+      ],
+      "reasoning_scores": [
+        5,
+        5
+      ],
+      "pca": 1,
+      "pair_ras": 5
+    },
+    "selection_note": "Clear contrast between grasping/opening the handle and stopping with a visible gap. PhyAR receives 5/5 reasoning scores."
+  },
+  {
+    "slug": "08_consequence_arrest",
+    "category": "IV_B_Consequence_Arrest",
+    "display_name": "Consequence Arrest",
+    "sample_indices": [
+      320,
+      321
+    ],
+    "videos": {
+      "positive": "videos/positive.mp4",
+      "negative": "videos/negative.mp4"
+    },
+    "baseline": {
+      "sample_accuracy": [
+        1,
+        0
+      ],
+      "reasoning_scores": [
+        4,
+        2
+      ],
+      "pca": 0,
+      "pair_ras": 2
+    },
+    "phyar": {
+      "sample_accuracy": [
+        1,
+        1
+      ],
+      "reasoning_scores": [
+        4,
+        5
+      ],
+      "pca": 1,
+      "pair_ras": 4.5
+    },
+    "selection_note": "Clear close-up contrast between successful ignition and repeated lighter operation without a flame. Baseline hallucinates a flame in the negative counterpart, whereas PhyAR identifies its absence."
+  }
+]

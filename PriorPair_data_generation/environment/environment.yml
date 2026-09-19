@@ -1,0 +1,15 @@
+name: priorpair-data-generation
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - ffmpeg
+  - pip:
+      - google-genai==1.63.0
+      - numpy==2.2.6
+      - opencv-python==4.13.0.92
+      - Pillow==11.3.0
+      - PyJWT==2.10.1
+      - requests==2.32.5
+      - tqdm==4.67.3

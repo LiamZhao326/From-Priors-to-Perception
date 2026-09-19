@@ -1,0 +1,37 @@
+{
+  "I_A_Coherence_Violation": {
+    "scene_prompt": "prompt_I.md",
+    "label_prompt": "label_prompt_IA.md"
+  },
+  "I_B_Causal_Reversal": {
+    "scene_prompt": "prompt_I.md",
+    "label_prompt": "label_prompt_IB.md"
+  },
+  "II_A_Existence_Violation": {
+    "scene_prompt": "prompt_IIA.md",
+    "label_prompt": "label_prompt.md"
+  },
+  "II_B_Identity_Violation": {
+    "scene_prompt": "prompt_IIB.md",
+    "label_prompt": "label_prompt.md"
+  },
+  "III_A_Dynamic_Violation": {
+    "scene_prompt": "prompt_IIIA.md",
+    "label_prompt": "label_prompt.md",
+    "reverse_label_prompt": "label_prompt_rev.md"
+  },
+  "III_B_Constraint_Violation": {
+    "scene_prompt": "prompt_IIIB.md",
+    "label_prompt": "label_prompt.md"
+  },
+  "IV_A_Near_Miss": {
+    "scene_prompt": "prompt_IVA.md",
+    "label_prompt": "label_prompt_IV.md",
+    "label_prompt_section": 0
+  },
+  "IV_B_Consequence_Arrest": {
+    "scene_prompt": "prompt_IVB.md",
+    "label_prompt": "label_prompt_IV.md",
+    "label_prompt_section": 1
+  }
+}
